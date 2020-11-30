@@ -3,7 +3,7 @@
 html {
   scroll-behavior: smooth;
 }
-
+b
 body {
   font-family: 'Poppins', sans-serif;
 }
@@ -293,6 +293,7 @@ h2 {
   -webkit-transition: all 0.2s linear;
   transition: all 0.2s linear;
   border-radius: 8px;
+  text-align: center;
 }
 
 .btn:nth-child(even) {
