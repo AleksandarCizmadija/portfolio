@@ -112,8 +112,8 @@ portfolioArray.forEach(item => {
         <h3>${item.name}</h3>
         <img src="${item.image}" alt="">
         <div class="buttons">
-            ${item.pageLink ? `<a href="${item.pageLink}" target="_blank" class="btn">View the page</a>` : ''}
-            ${item.codeLink ? `<a href="${item.codeLink}" target="_blank" class="btn">View the code</a>` : ''}
+            ${item.pageLink ? `<a href="${item.pageLink}" target="_blank" class="btn">View page</a>` : ''}
+            ${item.codeLink ? `<a href="${item.codeLink}" target="_blank" class="btn">View code</a>` : ''}
         </div>
     `;
     portfoliosContainer.appendChild(singlePortfolio);
