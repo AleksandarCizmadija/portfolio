@@ -129,7 +129,7 @@ h2 {
 }
 
 #about {
-  padding: 4rem 0 0;
+  padding: 6rem 0 0;
   margin-top: 2rem;
   max-width: 600px;
   margin-left: auto;
@@ -419,6 +419,9 @@ footer {
 @media (min-width: 768px) {
   .container {
     max-width: 720px;
+  }
+  #about {
+    padding: 4rem 0 0;
   }
 }
 
