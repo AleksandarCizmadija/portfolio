@@ -26,16 +26,16 @@ $secondary-color: #FBD341
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap')
 @import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap')
 
-html
-    scroll-behavior: smooth
-body
-    font-family: 'Poppins', sans-serif
-
 *, *::before, *::after
     box-sizing: border-box
 *
     padding: 0
     margin: 0
+
+html
+    scroll-behavior: smooth
+body
+    font-family: 'Poppins', sans-serif
 
 .container
     padding-left: 20px
@@ -252,6 +252,8 @@ footer
     color: $light
     padding: 1.5rem
     font-size: 0.8rem
+    .btn
+        margin-bottom: 0.5rem
 
 @media (min-width: 576px)
     .container
