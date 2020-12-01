@@ -79,12 +79,12 @@ const portfolioArray = [
         pageLink: 'https://codepen.io/AleksandarCizmadija/full/LYGWXem',
         codeLink: 'https://codepen.io/AleksandarCizmadija/pen/LYGWXem'
     },
-    // {
-    //     name: '',
-    //     image: 'images/.png',
-    //     pageLink: '',
-    //     codeLink: ''
-    // },
+    {
+         name: 'Clone Vegefoods',
+         image: 'images/vegefoods-laptop-tablet-mobile.png',
+         pageLink: 'https://aleksandarcizmadija.github.io/Clone-Vegefoods/',
+         codeLink: 'https://github.com/AleksandarCizmadija/Clone-Vegefoods'
+     },
     // {
     //     name: '',
     //     image: 'images/.png',
